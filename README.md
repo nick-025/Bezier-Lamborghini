@@ -8,13 +8,17 @@ We used Python 3.7 back in those days as the interpreter for Jupyter Lab, but I 
 
 We thought the radial decorations of the wheels were way too complex to draw one by one. So we tried to create a function to rotate the points and failed. Then we looked up on StackOverflow and found a [solution](https://stackoverflow.com/a/34374437/13787721) by **Mark Dickinson** that does exactly what we wanted. This saved us a lot of time 🙏🏻. Then we used Mark's function to replicate a single **'YY'** pattern symmetrically, given the number of iterations.
 
-Thre is a little problem with perspective, especially if you look closely at the wheels. There are some angles and deformations due to the camera angle, but we believe it does not compromise the project too much.
+There is a little problem with perspective, especially if you look closely at the wheels. There are some angles and deformations due to the camera angle, but we believe it does not compromise the overall appearance.
 
 I was a naive student so the code is a mess, and there are sections mixing Portuguese and English. But the result turned out really good. My professor told me this was the best work he ever saw in that discipline, (and sure!) my friend and I were immensely glad to hear that!
 
 # The result
 ![Lamborghini Sián FKP37 - Matplotlib](https://github.com/user-attachments/assets/22bb61f8-0244-401d-84e5-b8eff230beaf)
 
-We also learned to manipulate images using NumPy. Then we loaded the image with Matplotlib and lowered its opacity to watch if the curves were matching the picture. Here's an example:  
+We also learned to manipulate images using NumPy. Then we loaded the image with Matplotlib and lowered its opacity to ensure the curves were matching the picture. Here's an example:  
 
 ![Lamborghini com imagem embaixo](https://github.com/user-attachments/assets/2a779ba9-c41d-4add-bf4b-9d3a27b06c2a)
+
+Here is the original image we took for reference:
+
+<img width="1180" height="330" alt="Lamborghini Sian FKP 37 Right Side" src="https://github.com/user-attachments/assets/39b21b6e-a33b-467c-aaa9-12148a1ec7d5" />
